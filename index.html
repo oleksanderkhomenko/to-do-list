@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ToDo</title>
+</head>
+<body>
+  <h1>ToDo</h1>
+  <ul id="item-list">
+  </ul>
+  <div class="control">
+    <input type="text" id="label">
+    <button id="add-item">+</button>
+  </div>
+  <div class="control">
+    <button id="remove-items">Remove all checked</button>
+  </div>
+  <form id="storage" action="">
+      Storage engine:
+      <label><input type="radio" name="st" value="local" checked> LocalStorage </label>
+      <label><input type="radio" name="st" value="server"> Server </label>
+  </form>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
